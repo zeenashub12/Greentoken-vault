@@ -34,3 +34,62 @@ It empowers users to **mint GreenTokens**, **track eco-friendly activities**, an
 ```bash
 git clone https://github.com/zeenashub12/Greentoken-vault.git
 cd Greentoken-vault
+
+
+
+2. Install Dependencies
+npm install
+
+
+3. Run the App Locally
+npm run dev
+
+
+Then open http://localhost:5173
+ in your browser.
+
+4. Deploy Smart Contracts (optional)
+npx hardhat run scripts/deploy.js --network baseSepolia
+
+
+💡 Project Motivation
+
+GreenToken Vault was built to raise awareness about climate change and encourage collective climate action through blockchain-based incentives.
+It bridges technology and sustainability, showing that Web3 can drive real-world environmental change.
+
+
+🧠 Challenges Faced
+
+Integrating blockchain smart contracts with the frontend
+
+Fixing Vite build and import issues during setup
+
+Debugging Hardhat network deployment errors
+
+Creating smooth animations and responsive UI for better engagement
+
+🚀 Future Improvements
+
+🪙 Add NFT rewards for top contributors
+
+📊 Integrate carbon offset APIs
+
+🔗 Enable cross-chain token transfers
+
+🤖 Add AI-powered sustainability tips generator
+
+
+
+👩🏽‍💻 Author
+
+Zeenat Ayub
+🌐 GitHub @zeenashub12
+
+
+💬 Passionate about Web3, climate innovation, and building meaningful tech for impact.
+
+
+📜 License
+
+This project is licensed under the MIT License — see the LICENSE
+ file for details.

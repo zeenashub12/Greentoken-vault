@@ -1,95 +1,49 @@
 # 🌿 GreenToken Vault
 
-GreenToken Vault is a blockchain-powered platform designed to promote **climate action** through **tokenized sustainability efforts**.  
-It empowers users to **mint GreenTokens**, **track eco-friendly activities**, and **contribute to environmental change** — all while leveraging the transparency and security of Web3.
+**Live Project:** [https://greentoken-vault.vercel.app/](https://greentoken-vault.vercel.app/)  
+**Built with:** React + Vite + Smart Contracts on Base Sepolia
 
 ---
 
-## 🌍 Features
-
-- ♻️ **Mint GreenTokens** based on verified eco-friendly activities  
-- 🌱 **Activity Tracker** to record and visualize your sustainable contributions  
-- 🏦 **Vault System** to securely store and manage tokens  
-- 🧠 **AI-Generated Climate Quotes** to inspire daily climate awareness  
-- 🌐 **Community Section** for collective climate impact sharing  
+## 💡 Problem it Solves
+Climate change is one of the biggest challenges of our time. Yet, many individuals and organizations lack transparent ways to **track, verify, and reward eco-friendly actions**. GreenToken Vault bridges this gap by allowing users to **mint, store, and showcase eco-impact tokens** that represent real environmental efforts.
 
 ---
 
-## 🧩 Tech Stack
-
-| Layer | Tools |
-|-------|-------|
-| **Frontend** | React (Vite) |
-| **Styling** | CSS / Custom animations |
-| **Smart Contracts** | Solidity + Hardhat |
-| **Network** | Base / Ethereum-compatible testnet |
-| **Deployment** | GitHub Pages / Vercel |
-| **Version Control** | Git & GitHub |
+## 🌍 What It Does
+GreenToken Vault provides a simple, blockchain-based platform where:
+- Users can **mint green tokens** representing verified eco actions.
+- Each token is securely stored on the blockchain for transparency.
+- The app’s clean interface helps visualize your **environmental contributions**.
 
 ---
 
-## ⚙️ Getting Started
+## 🔧 Tech Stack
+- **Frontend:** React + Vite  
+- **Smart Contracts:** Solidity  
+- **Network:** Base Sepolia  
+- **Deployment:** Vercel  
 
-### 1. Clone the Repository
-```bash
-git clone https://github.com/zeenashub12/Greentoken-vault.git
-cd Greentoken-vault
+---
 
+## 🚀 How to Use
+1. Visit the live site: [https://greentoken-vault.vercel.app/](https://greentoken-vault.vercel.app/)  
+2. Connect your wallet (Base Sepolia).  
+3. Mint your own green token and track your impact!  
 
+---
 
-2. Install Dependencies
-npm install
+## 🧠 Challenges I Ran Into
+- Managing wallet connections on Base Sepolia  
+- Handling token minting feedback in the UI  
+- Fixing deployment issues with Vite and smart contract integration  
 
+---
 
-3. Run the App Locally
-npm run dev
+## 💚 Impact
+GreenToken Vault empowers people and organizations to **measure and prove their positive climate actions** through transparent blockchain data — creating a greener, more accountable world.
 
+---
 
-Then open http://localhost:5173
- in your browser.
-
-4. Deploy Smart Contracts (optional)
-npx hardhat run scripts/deploy.js --network baseSepolia
-
-
-💡 Project Motivation
-
-GreenToken Vault was built to raise awareness about climate change and encourage collective climate action through blockchain-based incentives.
-It bridges technology and sustainability, showing that Web3 can drive real-world environmental change.
-
-
-🧠 Challenges Faced
-
-Integrating blockchain smart contracts with the frontend
-
-Fixing Vite build and import issues during setup
-
-Debugging Hardhat network deployment errors
-
-Creating smooth animations and responsive UI for better engagement
-
-🚀 Future Improvements
-
-🪙 Add NFT rewards for top contributors
-
-📊 Integrate carbon offset APIs
-
-🔗 Enable cross-chain token transfers
-
-🤖 Add AI-powered sustainability tips generator
-
-
-
-👩🏽‍💻 Author
-
-Zeenat Ayub
-🌐 GitHub @zeenashub12
-
-
-💬 Passionate about Web3, climate innovation, and building meaningful tech for impact.
-
-
-📜 License
-
-This project is licensed under the MIT License — see the LICENSE
- file for details.
+## 🧑‍💻 Author
+Built by **Zeenat Ayub** for the *Google Chrome Built-in AI Challenge* 🌱

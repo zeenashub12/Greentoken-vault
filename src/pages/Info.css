@@ -1,0 +1,115 @@
+.info-section {
+    position: relative;
+    min-height: 100vh;
+    padding: 8rem 4rem 4rem;
+    /* more breathing space */
+    background: linear-gradient(180deg, #e0f7fa 0%, #f1f8e9 100%);
+    text-align: center;
+    overflow-x: hidden;
+}
+
+.info-bg {
+    position: absolute;
+    inset: 0;
+    background: url("https://images.unsplash.com/photo-1503264116251-35a269479413?auto=format&fit=crop&w=1600&q=80") center/cover no-repeat;
+    opacity: 0.1;
+    z-index: 0;
+}
+
+.info-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #004d40;
+    margin-bottom: 0.5rem;
+    position: relative;
+    z-index: 2;
+}
+
+.info-subtitle {
+    font-size: 1.1rem;
+    color: #1b5e20;
+    max-width: 720px;
+    margin: 0 auto 3rem;
+    position: relative;
+    z-index: 2;
+}
+
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* exactly 3 per row */
+    gap: 2rem 2.5rem;
+    justify-items: center;
+    position: relative;
+    z-index: 2;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.info-card {
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 1rem;
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+    width: 100%;
+    max-width: 360px;
+    /* wider cards */
+    height: 420px;
+    /* balanced height */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    backdrop-filter: blur(10px);
+}
+
+.info-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 22px rgba(0, 0, 0, 0.15);
+}
+
+.info-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 0.75rem;
+    margin-bottom: 1rem;
+}
+
+.info-card h3 {
+    color: #004d40;
+    font-size: 1.15rem;
+    margin-bottom: 0.5rem;
+}
+
+.info-card p {
+    color: #2e7d32;
+    font-size: 0.95rem;
+    flex-grow: 1;
+}
+
+.info-card a {
+    display: inline-block;
+    margin-top: 0.5rem;
+    font-weight: 600;
+    color: #00796b;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.info-card a:hover {
+    color: #004d40;
+}
+
+/* Responsive fix for smaller screens */
+@media (max-width: 1024px) {
+    .card-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 700px) {
+    .card-container {
+        grid-template-columns: 1fr;
+    }
+}

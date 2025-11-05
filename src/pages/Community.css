@@ -1,0 +1,179 @@
+.community-section {
+    text-align: center;
+    color: #f0fdf4;
+    background: linear-gradient(180deg, #032b16 0%, #064e3b 100%);
+    min-height: 100vh;
+    padding: 3rem 1rem;
+    font-family: "Poppins", sans-serif;
+}
+
+.community-title {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.community-subtitle {
+    max-width: 700px;
+    margin: 0 auto 2rem;
+    font-size: 1.1rem;
+    color: #bbf7d0;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.social-btn {
+    background: #16a34a;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border-radius: 10px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.social-btn:hover {
+    background: #22c55e;
+    transform: scale(1.05);
+}
+
+.community-resources {
+    margin-bottom: 2.5rem;
+}
+
+.community-resources h3 {
+    color: #86efac;
+    margin-bottom: 1rem;
+}
+
+.community-resources ul {
+    list-style: none;
+    padding: 0;
+}
+
+.community-resources li {
+    margin: 0.5rem 0;
+}
+
+.community-resources a {
+    color: #bbf7d0;
+    text-decoration: underline;
+    transition: color 0.3s;
+}
+
+.community-resources a:hover {
+    color: #86efac;
+}
+
+.ai-educator {
+    margin: 2rem auto;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 1.5rem;
+    border-radius: 12px;
+    max-width: 600px;
+}
+
+.ai-box {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.ai-box input {
+    flex: 1;
+    padding: 0.6rem 1rem;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+}
+
+.ai-box button {
+    background: #16a34a;
+    color: white;
+    border: none;
+    padding: 0.6rem 1.2rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.ai-box button:hover {
+    background: #22c55e;
+}
+
+.ai-response {
+    font-style: italic;
+    color: #d1fae5;
+    margin-top: 1rem;
+}
+
+.community-footer {
+    margin-top: 2rem;
+    font-size: 0.9rem;
+    color: #a7f3d0;
+}
+
+/* src/pages/Community.css */
+
+.ai-section {
+    padding: 2rem;
+    background: linear-gradient(180deg, #e0ffe3, #f5fff7);
+    min-height: 100vh;
+    color: #1a3c34;
+    text-align: center;
+}
+
+.ai-box {
+    background: white;
+    border-radius: 12px;
+    padding: 1.5rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.ai-box input {
+    flex: 1;
+    padding: 0.6rem;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+.ai-box button {
+    background: #27ae60;
+    color: white;
+    border: none;
+    padding: 0.6rem 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.ai-response {
+    background: #f0fff4;
+    border: 1px solid #b2f5ea;
+    padding: 1rem;
+    border-radius: 8px;
+    color: #2f855a;
+    margin-top: 1rem;
+}
+
+
+.community-section {
+    text-align: center;
+    color: #f0fdf4;
+    background: linear-gradient(180deg, #032b16 0%, #064e3b 100%);
+    min-height: 100vh;
+    padding: 3rem 1rem;
+    padding-top: calc(3rem + 60px); /* push content below navbar */
+    font-family: "Poppins", sans-serif;
+}

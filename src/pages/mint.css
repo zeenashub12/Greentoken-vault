@@ -1,0 +1,93 @@
+.vault-section h2 {
+  text-align: center;
+  color: #2e7d32;
+}
+
+.vault-box {
+  margin-top: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.vault-box input,
+.vault-box button {
+  width: 100%;
+  padding: 0.8rem;
+  border-radius: 8px;
+  border: none;
+}
+
+.vault-box button {
+  background: #43a047;
+  color: white;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.vault-box button:hover {
+  background: #2e7d32;
+}
+
+.vault-btn {
+  background: linear-gradient(90deg, #66bb6a, #43a047);
+  border: none;
+  color: white;
+  font-size: 1rem;
+  padding: 0.8rem 1.5rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.vault-btn:hover {
+  background: linear-gradient(90deg, #43a047, #2e7d32);
+  transform: scale(1.03);
+}
+
+.vault-section h2 {
+  text-align: center;
+  color: #2e7d32;
+}
+
+.vault-box {
+  margin-top: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.vault-box input,
+.vault-box button {
+  width: 100%;
+  padding: 0.8rem;
+  border-radius: 8px;
+  border: none;
+}
+
+.vault-box button {
+  background: #43a047;
+  color: white;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.vault-box button:hover {
+  background: #2e7d32;
+}
+
+.vault-btn {
+  background: linear-gradient(90deg, #66bb6a, #43a047);
+  border: none;
+  color: white;
+  font-size: 1rem;
+  padding: 0.8rem 1.5rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.vault-btn:hover {
+  background: linear-gradient(90deg, #43a047, #2e7d32);
+  transform: scale(1.03);
+}

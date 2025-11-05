@@ -1,0 +1,139 @@
+/* VaultPage.css - Namespaced with .vault-page */
+
+.vault-page {
+  max-width: 650px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: #e8f5e9;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  color: #1b5e20;
+}
+
+.vault-page h2 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.vault-page p {
+  margin: 0.5rem 0;
+  font-weight: 500;
+}
+
+.vault-page .vault-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.vault-page .vault-box {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.vault-page .vault-box input {
+  padding: 0.8rem 1rem;
+  border-radius: 8px;
+  border: 1px solid #43a047;
+  width: 160px;
+  font-size: 1rem;
+  outline: none;
+}
+
+.vault-page .vault-box button {
+  background: linear-gradient(90deg, #66bb6a, #43a047);
+  border: none;
+  color: white;
+  padding: 0.8rem 1.5rem;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.vault-page .vault-box button:hover {
+  background: linear-gradient(90deg, #43a047, #2e7d32);
+  transform: scale(1.05);
+}
+
+.vault-page .status {
+  margin-top: 1.5rem;
+  font-weight: 600;
+  color: #2e7d32;
+}
+
+/* Public Goods Allocation Section */
+.vault-page .allocation-section {
+  margin-top: 2rem;
+  padding: 1.5rem;
+  background: #dcedc8;
+  border-radius: 12px;
+  box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.vault-page .allocation-section h3 {
+  margin-bottom: 1rem;
+  font-size: 1.4rem;
+  color: #33691e;
+}
+
+.vault-page .project-allocation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.8rem;
+}
+
+.vault-page .project-allocation span {
+  font-weight: 500;
+}
+
+.vault-page .project-allocation input {
+  width: 60px;
+  padding: 0.5rem;
+  border-radius: 6px;
+  border: 1px solid #43a047;
+  text-align: center;
+  outline: none;
+}
+
+.vault-page .allocation-section button {
+  margin-top: 1rem;
+  background: linear-gradient(90deg, #81c784, #43a047);
+  border: none;
+  color: white;
+  padding: 0.6rem 1.2rem;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.vault-page .allocation-section button:hover {
+  background: linear-gradient(90deg, #43a047, #2e7d32);
+  transform: scale(1.05);
+}
+
+/* Connect Wallet Button */
+.vault-page .connect-btn {
+  background: linear-gradient(90deg, #66bb6a, #43a047);
+  border: none;
+  color: white;
+  padding: 0.8rem 1.5rem;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  margin-top: 1rem;
+}
+
+.vault-page .connect-btn:hover {
+  background: linear-gradient(90deg, #43a047, #2e7d32);
+  transform: scale(1.05);
+}
